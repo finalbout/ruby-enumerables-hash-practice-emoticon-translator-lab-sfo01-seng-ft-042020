@@ -11,7 +11,7 @@ def load_library(yaml_file)
   result
 end
 
-def get_japanese_emoticon(yaml_file,emoticons)
+def get_japanese_emoticon(yaml_file,emoticon)
   library = load_library(yaml_file)
   response = nil 
   library["get_emoticon"].each do |english, japanese|
