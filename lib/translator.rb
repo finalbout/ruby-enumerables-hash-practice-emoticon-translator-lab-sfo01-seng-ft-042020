@@ -8,7 +8,7 @@ def load_library(yaml_file)
     result["get_meaning"][emoticons[1]] = meaning
     result["get_emoticon"][emoticons[0]] = emoticons[1]
   end
-  result
+  result = load_library
 end
 
 def get_japanese_emoticon(yaml_file,emoticons)
