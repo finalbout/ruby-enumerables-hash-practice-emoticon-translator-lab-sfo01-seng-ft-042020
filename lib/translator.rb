@@ -33,10 +33,10 @@ def get_english_meaning(yaml_file,emoticon)
   response = nil 
   library["get_meaning"].each do |emo, trans|
     if emo == emoticon
-      resonse = trans 
+      response = trans 
     end 
   end 
-  if resposne == nil 
+  if response == nil 
     return "Sorry, that emoticon was not found"
   else 
     return response 
