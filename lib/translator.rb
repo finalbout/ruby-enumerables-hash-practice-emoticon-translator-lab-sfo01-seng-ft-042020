@@ -16,7 +16,7 @@ def get_japanese_emoticon(yaml_file,emoticons)
   response = nil 
   library["get_emoticon"].each do |english, japanese|
     if emoticon == english 
-      response == japanese 
+      response = japanese 
     end
   end 
   
