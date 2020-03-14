@@ -11,7 +11,7 @@ def load_library(yaml_file)
   result
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(yaml_file,emoticons)
   
 end
 
